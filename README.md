@@ -54,6 +54,6 @@ https://firebase.google.com/?hl=pt
 11 - Você quer usar diretório público? ENTER  
 12 - Configurar uma página única do index.html? `Y` (yes)  
 13 - Deseja colocar Deploys automáticos no GitHub? `N` (não)  
-14 - Atualizar a pasta e copiar os arquivos do projeto na pasta `public`  
+14 - Atualizar a pasta e copiar os arquivos do projeto (HTML, CSS, JS, IMG) na pasta `public`  
 15 - No prompt digitar: `firebase deploy`  
 16 - Copie o endereço do Hosting URL e cole no navegador.  
