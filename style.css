@@ -1,0 +1,74 @@
+/* O seletor universal do CSS (*) aplica estilos a elementos de qualquer tipo. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    background: url(img/bg.jpg) no-repeat center/cover;
+    /* background: linear-gradient(130deg, #0f2b05, #000000); */
+    /* background-size: cover;
+  background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /*remove as bordas*/
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #45A049;
+}
+
+/* Responsividade Mobile */
+@media screen and (max-width: 600px) {
+    form {
+        width: 80%;
+        padding: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    input {
+        height: 35px;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
