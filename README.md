@@ -47,7 +47,8 @@ https://firebase.google.com/?hl=pt
 6 - Fazer login no Google: `firebase login`  -> `Y` (yes) -> `Permitir` no navegador    
 7 - Iniciar seu projeto: `firebase init`  -> `Y` (yes) [Você está pronto para prosseguir?]  
 8 - Selecionar: `Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys`.  
-* [Hospedagem: configure arquivos para Firebase Hosting e (opcionalmente) configure o GitHub Action deploys]  
+* Hospedagem: configure arquivos para Firebase Hosting e (opcionalmente) configure o GitHub Action deploys  
+
 9 - Selecionar: `Use an existing project`  [Selecionar um projeto existente?]  
 10 - Selecione o projeto que você criou.  
 11 - Você quer usar diretório público? ENTER  
