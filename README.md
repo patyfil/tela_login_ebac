@@ -16,8 +16,9 @@ Tecnologias utilizadas: `HTML, CSS, JavaScript e Firebase`
     
     
 [Link do projeto no Firebase](https://tela-login-de6a2.web.app/)  
-
+Login: admin  
+Senha: admin  
 
 <div align="center">
-  <img height="200" src="img/projeto.jpg"  />
+  <img height="400" src="img/projeto.jpg"  />
 </div>
